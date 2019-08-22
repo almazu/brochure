@@ -1,0 +1,22 @@
+body { width: 800px;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+header { padding: 20px; }
+#links {width: 600px; 
+    height: 50px;
+    margin: 0 auto; }
+
+#content { width: 600px; 
+    height: 200px;
+    padding: 10px; }
+
+.column { width: 30%;
+    margin: 0 auto; 
+    padding: 20px;
+    display: inline-block; }
+
+footer { padding: 20px; 
+    margin: 0 auto; }
