@@ -1,22 +1,37 @@
-body { width: 800px;
-    height: 500px;
-    padding: 20px;
+body { padding: 20px; }
+
+/* First half of page (intro) */
+#intro { height: 500px; 
+    padding: 50px; }
+
+/* Title, and sub title */
+header { padding: 20px; 
+    margin: auto; 
+    background-color: aliceblue; }
+
+h1 { font-family: Georgia, serif; 
+    font-style: italic; }
+
+/* Button links */
+#links { height: 40px;
+    padding-top: 20px; 
+    width: 600px; 
     margin: auto;
-}
+    text-align: center; }
 
-header { padding: 20px; }
-#links {width: 600px; 
-    height: 50px;
-    margin: 0 auto; }
-
+/* Main content*/
 #content { width: 600px; 
-    height: 200px;
-    padding: 10px; }
+    height: 600px;
+    padding: 10px; 
+    margin: 0 auto;
+    text-align: center; }
 
+/* Columns in main content */
 .column { width: 30%;
     margin: 0 auto; 
     padding: 20px;
     display: inline-block; }
 
-footer { padding: 20px; 
-    margin: 0 auto; }
+footer { width: 600px;
+    margin: 0 auto; 
+    text-align: center; }
