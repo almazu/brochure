@@ -1,35 +1,40 @@
-body { padding: 20px; }
+body { margin: 0;
+    font-family: Arial, sans-serif; }
 
 /* First half of page (intro) */
 #intro { height: 500px; 
-    padding: 50px; }
+    padding: 50px; 
+    color: white; }
 
 /* Title, and sub title */
-header { padding: 20px; 
-    margin: auto; 
-    background-color: aliceblue; }
-
-h1 { font-family: Georgia, serif; 
-    font-style: italic; }
-
-/* Button links */
-#links { height: 40px;
-    padding-top: 20px; 
-    width: 600px; 
-    margin: auto;
+header { margin: auto; 
+    background-color: midnightblue;
     text-align: center; }
 
+h1 { font-family: Impact, sans-serif; 
+    letter-spacing: 3px; 
+    font-size: 50px; }
+
+#intro a { text-decoration: none; 
+    color: white; 
+    font-size: 10px; }
+
+/* Button links */
+#links { margin: auto;
+    text-align: center; 
+    padding: 10px;}
+
 /* Main content*/
-#content { width: 600px; 
+#content { width: 800px; 
     height: 600px;
-    padding: 10px; 
     margin: 0 auto;
     text-align: center; }
 
 /* Columns in main content */
-.column { width: 30%;
-    margin: 0 auto; 
-    padding: 20px;
+#columns { column-count: 3; 
+    padding: 10px; display: inline-block; }
+
+#columns p { width: 100%;  
     display: inline-block; }
 
 footer { width: 600px;
