@@ -28,7 +28,7 @@ h1 { font-family: Impact, sans-serif;
 
 /* Main content*/
 #content { width: 800px; 
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
     text-align: center; }
 
@@ -41,12 +41,16 @@ button { background-color: grey;
     border-radius: 8px; }
 
 /* Columns in main content */
-#columns { column-count: 3; 
-    column-gap: 40px;
-    height: 800px; 
-    column-rule-width: 1px;
+#columns { margin: 0 auto;
     padding: 40px; 
     text-align: center; }
+
+.column p { padding: 20px; }
+
+.column { margin-top: 0;
+    width: 200px;
+    display: inline-block;
+}
 
 .slideshow { 
     border-radius: 50%;  }
