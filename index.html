@@ -14,7 +14,7 @@
     <header> 
         <div id="intro">
             <h1>COMPOSITIONS</h1>
-            <h3>Photography Studio</h3>
+            <h4>Photography Studio</h4>
             <a href="#links">enter</a>
         </div>             
     </header>
@@ -25,9 +25,42 @@
             <button>Contact</button> 
         </div>  
         <div id="columns">
-            <p>Example</p>
-            <p>Example</p>
-            <p>Example</p>
+                <div id="slidecontainer">
+                    <!-- Slides -->
+                    <img class="slideshow" src="portrait.jpg" alt="Portrait of woman" height="200" width="200">
+                    <img class="slideshow" src="commercial.jpg" alt="Shoe ad" height="200" width="200">
+                    <img class="slideshow" src="event.jpg" alt="Event space" height="200" width="200">
+
+                    <!-- javascript --->
+                    <script>
+                        var slideIndex = 0;
+                        
+                        // call function slideshow()
+                        slideshow();
+            
+                        // slideshow() function goes through images and displays
+                        // each for five seconds
+                        function slideshow() {
+                            var i;
+                                
+                            var x = document.getElementsByClassName("slideshow");
+                                    
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none"; 
+                            }
+                                    
+                            slideIndex++;
+                               
+                            if (slideIndex > x.length) {slideIndex = 1} 
+                                x[slideIndex-1].style.display = "block"; 
+                                   
+                            setTimeout(slideshow, 5000); //Change image 5 seconds
+                        }
+                    </script>
+                </div>
+            <p>We do Portrait, Commercial, and Event photography </p>
+            <p>Exclusive offer</p>
+            <p>Meet our team</p>
         </div>
     </div>
     <footer>
