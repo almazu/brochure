@@ -1,0 +1,47 @@
+body { background-image: url("intro-backgrnd.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    margin: 20px;  }
+
+#content { width: 970px; 
+    height: 800px; 
+    background-color: white; 
+    padding: 20px;
+    text-align: center; 
+    margin: 0 auto; }
+
+#content p { text-align: left; 
+    padding: 40px;
+    line-height: 1.5; }
+
+h1, h3 { color: grey; }
+
+header { padding: 10px; }
+
+button { background-color: grey;
+    margin-left: 20px; 
+    width: 100px; 
+    padding: 8px; 
+    color: white;
+    border: none;
+    border-radius: 8px; }
+
+#columns { margin: 0 auto;
+    padding: 40px; 
+    text-align: center; }
+
+#columns p { text-align: center; }
+    
+.column { margin-top: 0;
+    width: 200px;
+    display: inline-block;
+}
+
+footer { width: 600px;
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 10px; }
+
+footer a { color: white; 
+    text-decoration: none;
+    font-size: 15px; }

@@ -5,7 +5,7 @@ body { margin: 0;
 #intro { height: 500px; 
     padding: 50px; 
     color: white; 
-    background-image: url("intro-background.jpg"); }
+    background-image: url("intro-backgrnd.jpg"); }
 
 /* Title, and sub title */
 header { margin: auto; 
