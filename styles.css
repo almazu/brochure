@@ -2,7 +2,7 @@ body { margin: 0;
     font-family: Arial, sans-serif; }
 
 /* First half of page (intro) */
-#intro { height: 500px; 
+#intro { height: 600px; 
     padding: 50px; 
     color: white; 
     background-image: url("intro-backgrnd.jpg"); }
@@ -27,10 +27,14 @@ h1 { font-family: Impact, sans-serif;
     display: inline-block; }
 
 /* Main content*/
-#content { width: 800px; 
-    height: 500px;
+#home, #about, #team, #contact { width: 1020px; 
+    padding-top: 60px; 
+    height: 700px;
     margin: 0 auto;
     text-align: center; }
+
+#home h1 { color: darkgrey; }
+#home h2 { color: grey; }
 
 button { background-color: grey;
     margin-left: 20px; 
@@ -43,17 +47,17 @@ button { background-color: grey;
 /* Columns in main content */
 #columns { margin: 0 auto;
     padding: 40px; 
-    text-align: center; }
+    text-align: center; 
+    width: 800px; }
 
 .column p { padding: 20px; }
 
 .column { margin-top: 0;
     width: 200px;
-    display: inline-block;
-}
+    margin-left: 20px; 
+    display: inline-block; }
 
-.slideshow { 
-    border-radius: 50%;  }
+.column-image, .slideshow { border-radius: 50%; }
 
 #columns p { margin-top: 0; }
 

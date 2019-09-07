@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-
     <title>Compositions</title>
 </head>
 <body>
@@ -15,14 +14,17 @@
         <div id="intro">
             <h1>COMPOSITIONS</h1>
             <h4>Photography Studio</h4>
-            <a href="#links">enter</a>
+            <a href="#home">enter</a>
         </div>             
     </header>
-    <div id="content">
+    <div id="home">
+        <h1>COMPOSITIONS</h1> 
+        <h2>Photography Studio</h2>
+        <hr>
         <div id="links"> 
-            <button onclick="window.location.href = 'index.html';">Home</button>
-            <button onclick="window.location.href = 'about.html';">About</button>
-            <button onclick="window.location.href = 'contact.html';">Contact</button> 
+            <button onclick="window.location.href = '#home';">Home</button>
+            <button onclick="window.location.href = '#about';">About</button>
+            <button onclick="window.location.href = '#contact';">Contact</button> 
         </div>  
         <div id="columns">
             <div class="column">
@@ -59,12 +61,37 @@
                         }
                     </script>
                 </div>
-            <p>We do Portrait, Commercial, and Event photography </p>
+            <p>Portrait, Commercial</p>
             </div>
-            <div class="column"><p>Exclusive offer</p></div>
-            
-            <div class="column"><p>Meet our team</p></div>
+            <div class="column">
+                <img class="column-image" src="offer.jpg" alt="Discount offer" height="200" width="200">
+                <p>Exclusive offer</p>
+            </div>
+            <div class="column">
+                <img class="column-image" src="team.jpg" alt="Man in studio" height="200" width="200">
+                <p><a href=""><p>Meet our team</p></a>
+            </div>
         </div>
+    </div>
+    <div id="about">
+        <h2>About</h2>
+        <hr>
+        <p>Compositions Photography Studio began in 1994 in a small town in Arizona. Since then it has
+            grown to be a stable business providing the community it's photo needs for 25 years. Whether it's commercial, portraits, or for an event, we are there. Our team is made up of talented photographers with different styles to accomodate customer needs. </p>
+    </div>
+    <div id="team">
+        <h2>Meet Our Team</h2>
+        <hr>
+        <div id="columns">
+            <div class="column"><p>Hannah</p></div>
+            <div class="column"><p>Rob</p></div>
+            <div class="column"><p>Andres</p></div>
+        </div>
+    </div>
+    <div id="contact">
+        <h2>Contact</h2>
+        <hr>
+        <p>Contact Form here</p>
     </div>
     <footer>
         <a href="index.html">Home</a>
