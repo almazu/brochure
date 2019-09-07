@@ -33,6 +33,14 @@ h1 { font-family: Impact, sans-serif;
     margin: 0 auto;
     text-align: center; }
 
+hr { width: 600px; }
+
+#about p { width: 800px; 
+    text-align: left; 
+    line-height: 1.5;
+    margin: auto; 
+    padding: 20px; }
+
 #home h1 { color: darkgrey; }
 #home h2 { color: grey; }
 
@@ -50,7 +58,8 @@ button { background-color: grey;
     text-align: center; 
     width: 800px; }
 
-.column p { padding: 20px; }
+.column p { padding: 20px; 
+    text-align: center; }
 
 .column { margin-top: 0;
     width: 200px;
@@ -60,6 +69,22 @@ button { background-color: grey;
 .column-image, .slideshow { border-radius: 50%; }
 
 #columns p { margin-top: 0; }
+
+#about-columns { padding: 40px; text-align: center; width: 800px;
+    margin: 0 auto; }
+
+#about-columns .column { width: 200px; }
+
+#about-columns .column p { width: 160px; text-align: center; }
+
+#form { width: 300px; 
+    text-align: left;
+    margin: 0 auto; 
+    line-height: 2; }
+
+#contact button { margin: auto; }
+
+#contact input, textarea { float: right; }
 
 footer { width: 600px;
     margin: 0 auto; 
